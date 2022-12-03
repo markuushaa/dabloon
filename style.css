@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "ohio";
+    src: url("./emoji.ttf");
+}
+@font-face {
+    font-family: "logo";
+    src: url(./emoji.ttf);
+}
+h1 {
+    font-size: xx-large;
+    text-align: center;
+    
+    
+}
+.emoji {
+    font-family: "ohio";
+    font-size: xx-large;
+    
+}
+
+.lago {
+    font-family: "logo";
+    font-weight: 10000;
+    font-size: xx-large;
+}
+.logo {
+    user-select: none;
+    -webkit-user-drag: none;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.logo:hover {
+    cursor: pointer;
+    
+}
+@keyframes ohido {
+    from {  transform: rotate('0deg');  }
+    to {  transform: rotate('360deg');  }
+}
